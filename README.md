@@ -41,4 +41,29 @@
  - and so on...
 
 
-### For your project. Edit this README.md file to include your own project name,  overview, user stories, and usage. 
+### For your project. Edit this README.md file to include your own project name,  overview, user stories, and usage.
+
+
+
+# Project name: Calculator.
+
+## Overview: a simple calculator that makes you add, subtract, multiply and divide.
+
+### As a user I should be able to do the following:
+- Enter my first name.
+- Enter my last name.
+- Enter numbers as much as i need.
+- adding numbers.
+- subtracting numbers.
+- multiplaying numbers.
+- dividing numbers.
+- Exit.
+
+#### Usage:
+- type in Enter your first name: your first name.
+- type in Enter your last name: your last name.
+- Enter your numbers until you finish enter 00.
+- Enter A or a to add your numbers to each other.
+- Enter B or b to subtract your numbers from each other.
+- Enter C or c to multiply your numbers to each other.
+- Enter D or d to divide your numbers from each other.
