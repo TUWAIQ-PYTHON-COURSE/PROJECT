@@ -52,7 +52,13 @@ def dirEnum(network):
         exit()   
 
     except KeyboardInterrupt:
+        console.log("\n[bold yellow] Results:")
+        console.log(f"[bold yellow] Directories found: {open_count}")
+        for i in range(len(open_dir)):
+            console.log(f"[bold yellow]/{open_dir[i]}") 
+              
         print("\nExiting program...\n")
+
     except Exception as e:
         print(e)
                     
