@@ -1,44 +1,34 @@
-# PROJECT
+# TUWAIQ PROJECT
 
 
 
-## Based on what you’ve learned until now , create a project of your choosing (impress us with your imagination) . This project must at least satisfy the following minimum requirements :
 
-- Must be interactive on CLI.
-- Use lists or dictionaries or tuples. 
-- Use loops.
-- Use functions that return an output . 
-- Use at least 1 Class.
-- Use some form of Error Handling .
-- Organize Your Code into modules & (or packages)
+## Password Generator :
 
-## Example Project :  An online Grocery Store :
+#### Overview : This is a tool to let users creates thier own password with the ability to specifiy the lenght of the password and how many letters, digits and special characters they want. Although all the passwords will be saved to retrive it on demand (when needed).
 
-#### Overview : An online store that sells fruits to customers. This online store has 2 main users. The customer and the manager of the store . Each one of them should be able to do the following tasks for the store to function properly . 
-
-#### As a customer I should be able to do the following :
-- Browse  Products . 
-- View the product info (summary, specs, price, quantity , etc.)
-- Search for Products.
-- Get recommendations for my next purchase based on my purchase history.
-- Add Products to the shopping cart .
-- Remove a product from the shopping cart.
-- List the products in my shopping cart. 
-- Continue to checkout . 
-- Fill in my address for delivery.
-- Get receipt of my purchases.
-- Check delivery status . 
+#### As a User I should be able to do the following :
+- Generate a password. 
+- Determine the lenught of password.
+- Determine the name of the password.
+- Determine how many letters you want in your password.
+- Determine how many digits you want in your password .
+- Determine how many special characters you want in your password.
+- See the saved passwords in user_passwprd file.
+- check if you did generate a password for specific website.
 
 
 
 #### Usage :
- Explain to the user how to use your project . 
- for example:
- - type in search product_name to search for a product.
- - type in list_products to show all the products in the grocery.
- - type in show product_name to get information about this product.
- - type in buy product_name to buy the product . 
- - and so on...
-
-
-### For your project. Edit this README.md file to include your own project name,  overview, user stories, and usage. 
+ 
+ - Choose 1 to generate a passwoed:
+    1.  Enter your password length.
+    2.  Enter password name : your password will be maped with the password name.
+    3.  Enter the numbers of letters needed for your password.
+    4.  Enter the numbers of digits needed for your password.
+    5.  Enter the numbers of special characters needed for your password.
+    6. Now, your password been saved in user_password file and shows up as an output.
+ - Choose 2 to see your passwoeds that been saved in the user_password file:
+    1.  Choose 1 to look up for specific password. 
+    2.  Choose 2 to print out all the saved passwords.
+ - Choose -1 to exit the program.
