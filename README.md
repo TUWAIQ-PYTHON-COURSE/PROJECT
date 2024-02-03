@@ -5,8 +5,8 @@
 #### Overview : This program helps you enumerate web directories. Using wordlists, the program will enumerate for every directory given in that list.. 
 
 #### By using the app you will be able to :
-- Fastly find directories rather than manual trial and error
-- Find Hidden directories
+- Fastly find hidden directories rather than manual trial and error
+  
 
 #### Usage :
  - type in the URL
