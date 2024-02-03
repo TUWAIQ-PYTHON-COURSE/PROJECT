@@ -1,4 +1,4 @@
-# dirEnumeration
+# DirFuzzer
 
 ## Web Directory Enumeration :
 
